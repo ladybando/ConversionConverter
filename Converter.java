@@ -1,3 +1,6 @@
+/**
+ * This is a simple Java class that converts basic frequently used items!
+ */
 package data;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -71,6 +74,7 @@ public class Converter {
             }
         }
     }
+    
     public double convertFahrenheit() {
         double f = in.nextDouble();
         return ((f - 32) * 5.) / 9.;
